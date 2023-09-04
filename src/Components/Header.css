@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.heading {
+    font-family: 'Qwigley', cursive;
+    font-size: 60px;
+
+}
+
+.address {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.search-login-div {
+    display: flex;
+}
+
+.search {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.login-btn {
+    margin-left: 25px;
+}
+
+.login-btn button { 
+    display: flex;
+    padding: 12px 20px;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(150deg, #FFB800 0%, #FF8A00 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+    border-radius: 8px;
+    border: 2px solid #FFAC0D;
+}

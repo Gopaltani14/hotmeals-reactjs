@@ -1,0 +1,66 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+/* popular items */
+#div-popular-parent {
+    margin-top: 50px;
+    margin-left:90px;
+    margin-right:90px;
+    margin-bottom:50px;
+}
+
+#div-popular-parent h2 {
+
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.popular-items-div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'Source Sans 3', sans-serif;
+    padding-bottom: 55px;
+    /* margin-left: 140px;
+    margin-right: 130px; */
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.popular-item-in-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: calc(20% - 10px);
+}
+
+.popular-item-img {
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+    border-radius: 2%;
+    margin-bottom: 7px;
+}
+
+.popular-items-in-div p {
+    font-family: 'Source Sans 3', sans-serif;
+    padding: 10px;
+}
+
+.popular-item-in-div button {
+    font-family: 'Source Sans 3', sans-serif;
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 8px;
+    background: #F17228;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 5px;
+    font-size: 16px;
+    box-shadow: 0px 20px 40px 0px rgba(250, 99, 35, 0.24), 0px 5px 10px 0px rgba(253, 114, 92, 0.22);
+}

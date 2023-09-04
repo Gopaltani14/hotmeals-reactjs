@@ -1,0 +1,71 @@
+/* first-menu */
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+    
+.first-menu-div {
+    display: flex;
+    gap: 5x;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-menu-item div {
+    border-radius: 10px;
+
+}
+
+.first-menu-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    gap: 5x;
+
+}
+
+.first-menu-item div {
+    width: 230px;
+    height: 230px;
+    margin-top: 40px;
+}
+
+.vada div {
+    /* background: url('vada.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.itly div {
+    /* background: url('itly.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.parotta div {
+    /* background: url('parotta.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pongal div {
+    /* background: url('pongal.png'); */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.first-menu-item p {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 800;
+    margin: 5px;
+}
+
+.first-menu-item button {
+
+    background: rgba(241, 114, 40, 0.20);
+    color: #F17228;
+    width: fit-content;
+    padding: 5px 15px;
+    margin-left: 5px;
+    border: none;
+    font-weight: bold;
+}

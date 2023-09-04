@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+/* search by food */
+.search-food-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    font-family: 'Source Sans 3', sans-serif;
+    background: #fcf9e1;
+    padding-bottom: 55px;
+}
+
+.search-food-div div h3 {
+    background: #fcf9e1;
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+
+}
+
+.search-food-in-div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ 
+}
+
+.search-food-in-div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-food-item {
+    width: 120px;
+    height: 120px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+
+.search-food-in-div div p {
+    padding: 10px;
+    margin: 15px;
+}

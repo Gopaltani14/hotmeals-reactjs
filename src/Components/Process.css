@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Qwigley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+.process-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    margin-top: 70px;
+    margin-left: 260px;
+    margin-right: 260px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 5px 27px 11px rgba(255, 181, 21, 0.10);
+}
+
+.process-heading-div {
+    font-size: 25px;
+    color: #F17228;
+    font-family: 'Source Sans 3';
+}
+
+.process-in-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.process-in-div-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+
+.process-in-div-div div {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+.process-in-div-div p {
+    margin: 10px;
+    background: linear-gradient(180deg, #FB3C00 0%, #e6aa13 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 16px;
+    width: 79px;
+    display: block;
+}
